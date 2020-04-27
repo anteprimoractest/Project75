@@ -2,16 +2,14 @@
 #include<string.h>
 #include<stdlib.h>
 
-//void ispisTeksta(char *niz) {
-//	printf("%s",niz);
-//	char zn;
-//	printf("Unesite znak: \n");
-//	scanf("%c", &zn);
-//}
+void ispisTeksta(char *niz) {
+	printf("%s", niz);
+	printf("\n");
+	system("PAUSE");
+}
 
 int main() {
-	printf("Hello world!\n");
-	char niz[15] = "Novi string\n";
+	char niz[15] = "Hello world!";
 	ispisTeksta(niz);
-	//return 0;
+	return 0;
 }
