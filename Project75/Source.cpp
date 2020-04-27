@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 
-void ispisTeksta(char *niz) {
-	printf("%s",niz);
-	char zn;
-	printf("Unesite znak: \n");
-	scanf("%c", &zn);
-}
+//void ispisTeksta(char *niz) {
+//	printf("%s",niz);
+//	char zn;
+//	printf("Unesite znak: \n");
+//	scanf("%c", &zn);
+//}
 
 int main() {
 	printf("Hello world!\n");
