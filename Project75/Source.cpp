@@ -5,11 +5,11 @@
 void ispisTeksta(char *niz) {
 	printf("%s", niz);
 	printf("\n");
-	system("PAUSE");
 }
 
 int main() {
 	char niz[15] = "Hello world!";
 	ispisTeksta(niz);
+	system("PAUSE");
 	return 0;
 }
