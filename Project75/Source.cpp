@@ -12,5 +12,5 @@ int main() {
 	printf("Hello world!\n");
 	char niz[15] = "Novi string\n";
 	ispisTeksta(niz);
-	return 0;
+	//return 0;
 }
