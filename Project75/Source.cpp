@@ -11,5 +11,5 @@ void ispisTeksta(char *niz) {
 int main() {
 	char niz[15] = "Hello world!";
 	ispisTeksta(niz);
-	return 0;
+	//return 0;
 }
